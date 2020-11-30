@@ -32,3 +32,8 @@ p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+@media screen and (max-width: 992px) {
+    body{font-size: 25px;}
+	h5{font-size: 30px;}
+}
