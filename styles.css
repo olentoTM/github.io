@@ -6,7 +6,6 @@ body, html {
 .logo {
 	padding: 10px;
 	border-bottom: 5px solid;
-	box-shadow: 0 4px 2px -2px gray;
 }
 
 p {
@@ -22,18 +21,39 @@ p {
 }
 
 .product-list {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.product-image {
+	background-color: green;
+}
+
+.product-preview {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.product-title {
+	margin: 0;
+}
+
+.page-link {
+	color: black;
+}
+
+.page-link:hover {
+	color: black;
 }
 
 .footerinfo {
-	background-color: gray;
+	background-color: #404040;
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 @media screen and (max-width: 992px) {
-    body{font-size: 25px;}
-	h5{font-size: 30px;}
+    body{font-size: 20px;}
+	h5{font-size: 25px;}
 }
