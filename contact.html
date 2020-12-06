@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title>Asiakaspalvelu // RecordStore</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<div class="container logo">
+				<img class="img-fluid mx-auto d-block" src="kuvat/logo_black.png" alt="RecordStore logo">
+			</div>
+		</header>
+		<nav class="container navbar navbar-expand-lg navbar-light" style="background-color: #F8F8FF">
+			<a class="navbar-brand">
+				<img src="kuvat/orangelogo.png" width="30" height="30" alt="Navbar Logo">
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Koti</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="products.html">Tuotteet</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="contact.html">Asiakaspalvelu</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section>
+			<div class="container">
+				<div class="row contactInfo">
+					<div class="col-12">
+						<h2>FAQ</h2>
+					</div>
+					<div id="accordion">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link infoClass" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Toimitustavat
+								</button>
+							</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+										<h4>Toimitustapa</h4>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3">
+										<h4>Määrä</h4>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3">
+										<h4>Hinta</h4>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-4 col-md-4 col-sm-6 col-6 shippinginfo">
+										<p>Posti paketti</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>1 kpl</p>
+										<p>2-4 kpl</p>
+										<p>5+ kpl</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>5,00€</p>
+										<p>10,00€</p>
+										<p>20,00€</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-4 col-md-4 col-sm-6 col-6 shippinginfo">
+										<p>Posti pikatoimitus</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>1 kpl</p>
+										<p>2-4 kpl</p>
+										<p>5+ kpl</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>10,00€</p>
+										<p>20,00€</p>
+										<p>50,00€</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+									<div class="col-lg-4 col-md-4 col-sm-6 col-6 shippinginfo">
+										<p>DHL</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>1 kpl</p>
+										<p>2-4 kpl</p>
+										<p>5+ kpl</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-3 col-3 shippinginfo">
+										<p>10,00€</p>
+										<p>20,00€</p>
+										<p>50,00€</p>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-0 col-0"></div>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed infoClass" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Toimitusaika
+								</button>
+							</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<p>Toimitamme varastossa olevat tuotteet pääsäntöisesti seuraavana arkipäivänä. Jos tuotetta ei ole varastossa, toimitusaika voi vaihdella riippuen tuotteen saatavuudesta tavarantoimittajalta.</p>
+								<p>Suomeen toimittaessa arvioitu toimitusaika varastossa oleville tuotteille on noin 2-4 arkipäivää. Pikatoimituksella paketti toimitetaan jo seuraavana arkipäivänä.</p>
+								<p>Ulkomaille toimittaessa toimitusaika vaihtelee sijainnin mukaan. Eurooppaan toimittaessa paketti toimitetaan noin viikon sisällä. Euroopan ulkopuolelle toimituksessa kuluu muutamasta viikosta kuukauteen.</p>
+							</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed infoClass" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Palautukset
+								</button>
+							</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="card-body">
+									<p>Ei palautuksia!</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed tempus urna et pharetra pharetra massa massa. Vitae ultricies leo integer malesuada nunc vel. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Nunc pulvinar sapien et ligula ullamcorper malesuada. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row contactInfo">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<h2>Ota Yhteyttä</h2>
+						<p>Täytä viereinen lomake tai tule käymään paikanpäällä.</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26593.500980664325!2d25.032224253589362!3d60.303575648339866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469207b9eeb89779%3A0xc7427f848eb6748f!2sLaurea%20Tikkurilan%20kampus!5e0!3m2!1sfi!2sfi!4v1607265177974!5m2!1sfi!2sfi" class= "googleMap" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<form action="#" method="post">
+							<fieldset>
+								<legend>Yhteydenottolomake</legend>
+								<div class="form-group">
+									<label for="formInput1">Anna sähköpostiosoitteesi:</label>
+									<input type="email" class="form-control" id="formInput1" placeholder="esimerkki@sähköposti.com" required>
+								</div>
+								<div class="form-group">
+									<label for="formSelect">Valitse aihe:</label>
+									<select class="form-control" id="formSelect">
+										<option>Tuote tiedustelu</option>
+										<option>Tilaukseni</option>
+										<option>Palautus</option>
+										<option>Muu</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="formInput2">Lisätietoja:</label>
+									<textarea class="form-control" id="formInput2" rows="7" required></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary btn-lg btn-block">Lähetä</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row footerinfo">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<h5>RecordStore&copy;</h5>
+						<p>Katukuja 5 A</p>
+						<p>01500 Helsinki, Finland</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+		<script>
+			jQuery(function($){
+				$('[data-toggle=collapse]').on('click', function (e) {
+					e.preventDefault();
+					if(! $(this).hasClass('collapsed')){
+						e.stopPropagation();
+						return false;
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
