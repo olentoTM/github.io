@@ -176,3 +176,9 @@ legend {
 	height: 500px;
 	border: none;
 }
+
+@media screen and (max-width: 992px) {
+    .hpt {
+		font-size: 14px;
+	}
+}
